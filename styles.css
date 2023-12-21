@@ -39,11 +39,11 @@ header {
   
   header div{
     margin-right: 9px;
-    
+    display:block;
   }
   footer div{
     margin-right: 9px;
-    
+    display:block;
   }
   img{
     margin:0;
