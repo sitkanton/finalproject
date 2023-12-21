@@ -39,11 +39,11 @@ header {
   
   header div{
     margin-right: 30px;
-    
+    flex-basis: calc(33.33% - 20px);
   }
   footer div{
     margin-right: 30px;
-    
+    flex-basis: calc(33.33% - 20px);
   }
   img{
     margin:0;
