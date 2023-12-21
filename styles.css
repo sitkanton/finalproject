@@ -30,11 +30,11 @@ header {
   header .content {
     display: flex;
     justify-content: flex-end;
-    
+    flex-basis: calc(33.33% - 20px);
   }footer .content {
     display: flex;
     justify-content: flex-end;
-    
+    flex-basis: calc(33.33% - 20px);
   }
   
   header div{
