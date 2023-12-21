@@ -30,20 +30,20 @@ header {
   header .content {
     display: flex;
     justify-content: flex-end;
-    flex-basis: calc(100% - 10px);
+    
   }footer .content {
     display: flex;
     justify-content: flex-end;
-    flex-basis: calc(100% - 10px);
+    
   }
   
   header div{
     margin-right: 9px;
-    flex-basis: calc(100% - 10px);
+    
   }
   footer div{
     margin-right: 9px;
-    flex-basis: calc(100% - 10px);
+    
   }
   img{
     margin:0;
