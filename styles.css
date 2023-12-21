@@ -29,7 +29,7 @@ header {
   
   header .content {
     display: flex;
-    
+    justify-content: flex-end;
     flex-basis: calc(100% - 10px);
   }footer .content {
     display: flex;
@@ -38,11 +38,11 @@ header {
   }
   
   header div{
-    margin-right: 30px;
+    margin-right: 9px;
     flex-basis: calc(100% - 10px);
   }
   footer div{
-    margin-right: 30px;
+    margin-right: 9px;
     flex-basis: calc(100% - 10px);
   }
   img{
