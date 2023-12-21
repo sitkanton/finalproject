@@ -49,7 +49,9 @@ header {
     margin:0;
 
   }
-  
+  div.logo{
+      margin-right: 5px;
+  }
   p1 {
     text-align: left;
     font-size: 25px;
