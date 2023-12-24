@@ -70,6 +70,14 @@ h1 {
   
  
 }
+h4 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.7em;
+  margin:0;
+  
+ 
+}
 h6{
   font-size: 30px;
   line-height: 1.3em;
@@ -81,6 +89,33 @@ h6{
   background-color: #fff; 
   padding: 10px;
   margin-bottom: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.b_i {
+  border-radius: 6px; 
+  background-color: #fff; 
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-right: 500px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.b_in {
+  border-radius: 6px; 
+  background-color: #fff; 
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-right: 850px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.b_inf {
+  border-radius: 6px; 
+  background-color: #fff; 
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-right: 1200px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -180,3 +215,44 @@ font-size: calc(10px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
     font-size: 30px;
   }
 }
+div.change-text{
+  color: #000000; 
+  font-size: 20px; 
+  font-family: 'Times New Roman', sans-serif;
+  margin-right: 9px;
+  display:block;
+ 
+  
+          transition: all 0.5s ease; 
+}
+div.change-text:hover{
+  color: #707ddc;
+}
+p.change-text1{
+ 
+  
+  font-family: 'Times New Roman', sans-serif;
+  
+  
+ 
+  
+          transition: all 0.5s ease; 
+          position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-weight: bold;
+color: rgb(51,204,255);
+margin: 0;
+padding: 0;
+font-size: 30px;
+}
+p.change-text1:hover{
+  color: rgb(44, 94, 120);
+}
+.scale {
+  transition: 0.5s; 
+ }
+ .scale:hover {
+  transform: scale(1.05);
+ }
